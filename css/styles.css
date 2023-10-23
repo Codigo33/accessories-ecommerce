@@ -201,7 +201,7 @@ img {
 }
 
 .home__container {
-    height: calc(100vh - 6rem);
+    height: calc(100vh - 3rem);
 }
 
 .home__data {
@@ -224,7 +224,8 @@ img {
     position: absolute;
     right: 0;
     bottom: 0;
-    width: 260px;
+    width: 230px;
+    height: auto;
 }
 
 /*BUTTONS*/
