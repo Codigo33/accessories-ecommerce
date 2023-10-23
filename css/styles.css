@@ -516,9 +516,13 @@ img {
     }
 
     .home__data {
-        padding: 0;
-        height: max-content;
-        align-self: center;
+        padding-left: 7rem;
+        margin-top: 10rem;
+    }
+
+    .home__img {
+        width: 400px;
+        right: 10%;
     }
 
     .home__title {
@@ -571,8 +575,17 @@ img {
 
     .home__data {
         padding-left: 7rem;
+        align-self: center;
+        margin-top: 0;
     }
 
+    .home__img {
+        width: 400px;
+        right: 10%;
+    }
+}
+
+@media screen and (min-width: 1440px) {
     .home__img {
         right: 15%;
     }
