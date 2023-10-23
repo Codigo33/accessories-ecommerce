@@ -201,7 +201,7 @@ img {
 }
 
 .home__container {
-    height: 100vh;
+    height: calc(100vh - 3rem);
 }
 
 .home__data {
